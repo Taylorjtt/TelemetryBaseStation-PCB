@@ -1,0 +1,191 @@
+(footprint "CAP 0603_1608"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Chip Capacitor, 2-Leads, Body 1.60x0.80mm, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at 0 -1.225 0)
+		(layer "F.SilkS")
+		(uuid "df279467-8fd7-469e-aac6-d6f061c7d874")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP 0603_1608"
+		(at 0 1.225 0)
+		(layer "F.Fab")
+		(uuid "2c31b281-6ba3-48e2-b8c6-418a18428527")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a604d0d-3679-477d-95a0-40366a4e146f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59e9d045-9d35-4d13-b383-c28890eef313")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.25 -0.6)
+		(end 1.2 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "1f63054a-1712-477c-a4ef-3b6b2c0cec57")
+	)
+	(fp_line
+		(start -1.25 0.6)
+		(end -1.25 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "83bcd1aa-c5de-42b3-b85e-34dcad912678")
+	)
+	(fp_line
+		(start -1.25 0.6)
+		(end 1.2 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "7c998785-23c2-4f78-9518-a488b1081468")
+	)
+	(fp_line
+		(start -0.475 0)
+		(end 0.475 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "4e6d7dcc-1d2d-4169-a07a-6d36329a0f9d")
+	)
+	(fp_line
+		(start 0 0.475)
+		(end 0 -0.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "cb2ce98f-28c4-4642-a147-0645bb67e6f3")
+	)
+	(fp_line
+		(start 1.2 0.6)
+		(end 1.2 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "6aa89ef5-a3ba-4e14-8a9a-496ede9ce68f")
+	)
+	(fp_line
+		(start -0.875 -0.475)
+		(end 0.875 -0.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "a614fd40-cb92-4a36-905b-669ea555ddae")
+	)
+	(fp_line
+		(start -0.875 0.475)
+		(end -0.875 -0.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "9dc15a2f-8af8-43c3-9206-7230e9800fdc")
+	)
+	(fp_line
+		(start -0.875 0.475)
+		(end 0.875 0.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "8e959b54-745f-4664-8205-0d54dea729a0")
+	)
+	(fp_line
+		(start 0.875 0.475)
+		(end 0.875 -0.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "0bac5201-712a-4885-b582-345f439c122f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 -1 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "481486dd-5ab6-41d5-8d2a-d964cb062c5f")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.675 0 90)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6e038445-284b-48f5-84a2-5f632ab4d3de")
+	)
+	(pad "2" smd rect
+		(at 0.675 0 90)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5d21051c-7c81-46db-864c-290ce50fdc65")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/Cap0603.step"
+		(offset
+			(xyz 0 -0.4445 0.381)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

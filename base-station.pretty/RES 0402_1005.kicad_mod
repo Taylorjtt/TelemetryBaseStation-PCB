@@ -1,0 +1,191 @@
+(footprint "RES 0402_1005"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Chip Resistor, 2-Leads, Body 1.0x0.5mm, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at 0 -1.025 0)
+		(layer "F.SilkS")
+		(uuid "f3163e6c-7ca5-4116-a618-ae71173afb03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RES 0402_1005"
+		(at 0 1.025 0)
+		(layer "F.Fab")
+		(uuid "e10b3e31-ffae-4387-a4fa-156f29637acc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8172aaf-f007-4e49-873f-53b286559096")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ca415cc-68eb-4c75-bccf-1f7fbb8b84b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.9 -0.4)
+		(end 0.9 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "21ab0b2f-f05c-486b-8d2c-5e79e7b8f0c1")
+	)
+	(fp_line
+		(start -0.9 0.4)
+		(end -0.9 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "32eae4bb-e795-4894-93dd-dc2721d9beb6")
+	)
+	(fp_line
+		(start -0.9 0.4)
+		(end 0.9 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "95d9fe5f-7eec-4d56-8630-90c6eac36f69")
+	)
+	(fp_line
+		(start -0.275 0)
+		(end 0.275 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "9465926e-e8bd-4611-9f79-d2fd18702a02")
+	)
+	(fp_line
+		(start 0 0.275)
+		(end 0 -0.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "501d0c0e-8010-45c3-acb6-8356c6ab5bfd")
+	)
+	(fp_line
+		(start 0.9 0.4)
+		(end 0.9 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "6de5012e-b792-408a-8d76-20af356acd22")
+	)
+	(fp_line
+		(start -0.525 -0.275)
+		(end 0.525 -0.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "d5375530-63d1-41cf-ab38-8a2ca3b32627")
+	)
+	(fp_line
+		(start -0.525 0.275)
+		(end -0.525 -0.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "cd533020-4248-4704-95c4-fd017d59c84b")
+	)
+	(fp_line
+		(start -0.525 0.275)
+		(end 0.525 0.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "2d8bae4a-c65a-4b9a-b600-2f8293eec655")
+	)
+	(fp_line
+		(start 0.525 0.275)
+		(end 0.525 -0.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "9fbcb9bb-386d-49f9-ba55-5c4548ee5ed3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.9 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "6b88b25b-ca92-4e40-af4d-85d39fc056ca")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "201e68f5-9ff0-426e-bcad-acc73cd80187")
+	)
+	(pad "2" smd rect
+		(at 0.5 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4a527700-cde9-4ddd-8f88-b68d8c634766")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/Stackpole CSR0402 Res.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
